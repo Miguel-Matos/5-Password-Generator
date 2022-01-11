@@ -15,13 +15,9 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 password = ""
 
 for letter in range(nr_letters):
-    r_let = random.randint(0,25)
+    r_let = random.randint(0,51)
     letter = letters[r_let]
-    upper_lower = random.randint(0,1)
-    if upper_lower == 0:
-        password += letter.lower()
-    else:
-        password += letter.upper()
+    password += letter
 
 
 for symbol in range(nr_symbols):
