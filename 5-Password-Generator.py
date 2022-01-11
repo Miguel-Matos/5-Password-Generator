@@ -17,8 +17,12 @@ password = ""
 for letter in range(nr_letters):
     r_let = random.randint(0,25)
     letter = letters[r_let]
+    upper_lower = random.randint(0,1)
+    if upper_lower == 0:
+        password += letter.lower()
+    else:
+        password += letter.upper()
 
-    password += letter
 
 for symbol in range(nr_symbols):
     r_let = random.randint(0,8)
