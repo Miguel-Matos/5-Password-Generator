@@ -12,6 +12,13 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #Eazy Level - Order not randomised:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 
+for letter in range(0, nr_letters):
+    print(letter)
+
+
+
+
+
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
